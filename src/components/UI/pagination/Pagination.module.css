@@ -1,0 +1,36 @@
+.pagination {
+   display: flex;
+   gap: 15px;
+   margin: 0 auto;
+}
+
+.pagination__link,
+.pagination__dots {
+   font-size: 0.8em;
+
+   background: var(--text-color);
+   color: var(--background-color);
+
+   border: 2px solid var(--text-color);
+
+   width: 30px;
+   height: 30px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   border-radius: 50px;
+
+   transition: all 300ms ease;
+}
+
+.pagination__link:hover,
+.pagination__link_active {
+   background: transparent;
+   color: var(--text-color);
+}
+
+.pagination__btn * {
+   color: var(--text-white-color);
+}

@@ -1,0 +1,19 @@
+.dropdown {
+   background: var(--sub-background-color);
+
+   border-radius: 30px;
+
+   padding: 7px 30px;
+}
+
+.dropdown__header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.dropdown__content {
+   padding: 15px 0;
+   display: grid;
+   gap: 4px;
+}

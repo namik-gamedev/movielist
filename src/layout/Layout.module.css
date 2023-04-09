@@ -1,0 +1,12 @@
+.layout {
+   min-height: 100vh;
+   background: var(--background-color);
+   transition: all 500ms ease;
+}
+
+.layout__content {
+   width: 85vw;
+   margin: 0 auto;
+
+   padding: 20px 0;
+}

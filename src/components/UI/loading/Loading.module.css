@@ -1,0 +1,34 @@
+.loading {
+   width: 80px;
+   height: 80px;
+
+   border-radius: 50%;
+
+   animation: anim 1s ease;
+
+   display: flex;
+   align-items: center;
+   gap: 5px;
+
+   margin: 0 auto;
+}
+
+.block {
+   width: 8px;
+   height: 20px;
+
+   background: var(--text-color);
+
+   animation: pulse 600ms ease-in-out infinite;
+}
+
+.block:nth-child(even) {
+   animation-delay: 150ms;
+}
+
+@keyframes pulse {
+   40%,
+   60% {
+      height: 45px;
+   }
+}

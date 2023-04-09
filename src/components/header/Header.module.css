@@ -1,0 +1,44 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 18px 35px;
+
+   grid-column: 1 / span 2;
+
+   background: var(--background-color);
+
+   position: sticky;
+   top: 0;
+
+   box-shadow: 0 0 20px 8px rgba(1, 1, 1, 0.5);
+
+   z-index: 999;
+
+   transition: all 500ms ease;
+}
+
+.header__left {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+.header__right {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+
+   position: relative;
+}
+
+.header__btnWithText {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+.header__favouriteCount,
+.header__username {
+   font-size: 1.1em;
+}

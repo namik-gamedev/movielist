@@ -1,0 +1,66 @@
+.movie {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.movie__content {
+   display: grid;
+   gap: 20px;
+   width: 100%;
+}
+
+.movie__poster {
+   width: 300px;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   width: 100%;
+
+   margin-bottom: 20px;
+}
+
+.movie__title {
+   font-size: 2em;
+}
+
+.movie__ageRating {
+   font-size: 1.2em;
+   color: var(--sub-text-color);
+}
+
+.movie__props {
+   list-style: none;
+   display: grid;
+   gap: 8px;
+}
+
+.movie__prop {
+   color: var(--sub-text-color);
+
+   font-size: 1.1em;
+}
+
+.movie__propValue {
+   font-weight: 600;
+}
+
+.movie__dropdowns {
+   grid-column: 1 / span 2;
+
+   display: grid;
+   gap: 10px;
+}
+
+.movie__videos {
+   grid-column: 1 / span 2;
+   display: grid;
+   gap: 10px;
+}
+
+.movie__link:hover {
+   font-weight: bold;
+}

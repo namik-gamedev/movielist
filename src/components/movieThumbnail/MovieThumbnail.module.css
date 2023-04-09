@@ -1,0 +1,69 @@
+.thumbnail {
+   margin: auto;
+
+   cursor: pointer;
+
+   transition: all 300ms ease;
+}
+
+.thumbnail:hover {
+   width: 97%;
+}
+
+.thumbnail:hover .movieInfo {
+   opacity: 1;
+}
+
+.thumbnail__content {
+   position: relative;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.thumbnail__poster {
+   width: 100%;
+   height: 100%;
+}
+
+.thumbnail__rating {
+   position: absolute;
+   top: 8px;
+   left: 8px;
+}
+
+.movieInfo {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+
+   background-color: var(--text-color);
+
+   padding: 10px;
+
+   opacity: 0;
+
+   transition: all 300ms ease;
+}
+
+.movieInfo * {
+   color: var(--background-color);
+}
+
+.movieInfo__title {
+   font-size: 1em;
+   margin-bottom: 5px;
+}
+
+.movieInfo__genres {
+   color: var(--sub-text-color);
+}
+
+.movieInfo__ageRating {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+
+   font-size: 1.3em;
+}

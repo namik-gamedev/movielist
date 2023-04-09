@@ -1,0 +1,23 @@
+.movies__list {
+   list-style: none;
+
+   display: grid;
+}
+
+.movies__item {
+   font-size: 1.2em;
+   font-weight: 600;
+
+   padding: 7px 15px;
+
+   transition: all 300ms ease;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.movies__item:hover {
+   margin: 0 15px;
+   background: var(--sub-background-color);
+}

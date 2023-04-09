@@ -1,0 +1,10 @@
+.input {
+   margin-bottom: 3px;
+}
+
+.input__error {
+   color: var(--red-color);
+   font-weight: 600;
+   margin-bottom: 8px;
+   margin-left: 15px;
+}

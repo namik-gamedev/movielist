@@ -1,0 +1,6 @@
+.form__top {
+   display: flex;
+   gap: 8px;
+
+   margin-bottom: 4px;
+}

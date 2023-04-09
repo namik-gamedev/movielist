@@ -1,0 +1,8 @@
+.searchResults {
+   display: grid;
+   gap: 30px;
+}
+
+.searchResults__content {
+   display: grid;
+}
