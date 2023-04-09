@@ -1,0 +1,25 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+
+   color: var(--text-color);
+}
+
+input::placeholder {
+   font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+   margin-bottom: 15px;
+}
+
+body {
+   font-weight: 500;
+}
+
+a {
+   text-decoration: none;
+   color: var(--text-color);
+}

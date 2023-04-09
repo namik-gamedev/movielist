@@ -1,0 +1,14 @@
+.App {
+   --text-color: #272428;
+   --sub-text-color: #9d989f;
+   --sub-background-color: #e4dee7;
+   --background-color: #fcf9ff;
+   --red-color: #e06262;
+}
+
+.App.black {
+   --text-color: #fcf9ff;
+   --background-color: #272428;
+   --sub-background-color: #3b383c;
+   --sub-text-color: #a69ca9;
+}

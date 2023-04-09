@@ -1,0 +1,36 @@
+.thumbnail {
+   width: 100%;
+   display: flex;
+   gap: 20px;
+
+   padding: 10px;
+
+   cursor: pointer;
+
+   transition: all 300ms ease;
+}
+
+.thumbnail:hover {
+   margin-left: 20px;
+   background: var(--background-color);
+}
+
+.thumbnail__img {
+   width: 120px;
+}
+
+.movieInfo__header {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   margin-bottom: 12px;
+}
+
+.movieInfo__title {
+   margin-bottom: 0;
+}
+
+.movieInfo__description {
+   color: var(--sub-text-color);
+}

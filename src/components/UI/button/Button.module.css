@@ -1,0 +1,39 @@
+.btn {
+   padding: 7px 10px;
+
+   border-radius: 50px;
+   border: 2px solid var(--text-color);
+
+   outline: none;
+
+   cursor: pointer;
+
+   transition: all 300ms ease;
+
+   font-weight: 600;
+   color: var(--background-color);
+
+   background: var(--text-color);
+}
+
+.btn * {
+   color: inherit;
+}
+
+.btn:hover {
+   background: transparent;
+   color: var(--text-color);
+}
+
+.btn_disabled {
+   background: var(--sub-background-color);
+   border-color: var(--sub-text-color);
+   color: var(--sub-text-color);
+
+   cursor: default;
+}
+
+.btn_disabled:hover {
+   background: var(--sub-background-color);
+   color: var(--sub-text-color);
+}

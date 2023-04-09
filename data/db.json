@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "name": "Намик Гусейнов",
+      "email": "gnamik007@gmail.com",
+      "password": "m766dzR4",
+      "favouriteMovies": [
+        {
+          "id": 49684,
+          "name": "Ходячий замок"
+        },
+        {
+          "id": 749374,
+          "name": "Атака титанов"
+        },
+        {
+          "id": 462682,
+          "name": "Волк с Уолл-стрит"
+        },
+        {
+          "id": 41519,
+          "name": "Брат"
+        }
+      ],
+      "id": 1,
+      "darkTheme": true
+    },
+    {
+      "email": "n.amik@mail.ru",
+      "password": "m766dzR4",
+      "name": "масия гусейнов",
+      "favouriteMovies": [
+        {
+          "id": 920265,
+          "name": "Человек-паук: Через вселенные"
+        }
+      ],
+      "darkTheme": true,
+      "id": 2
+    },
+    {
+      "email": "namikkk@mail.example",
+      "password": "Namik2008",
+      "name": "Намик",
+      "favouriteMovies": [],
+      "darkTheme": false,
+      "id": 3
+    },
+    {
+      "email": "alex@mail.ru",
+      "password": "Namik2008",
+      "name": "Alex",
+      "favouriteMovies": [
+        {
+          "id": 61237,
+          "name": "Железный человек"
+        }
+      ],
+      "darkTheme": true,
+      "id": 4
+    },
+    {
+      "email": "gus.namik007@gmail.com",
+      "password": "Namik2008",
+      "name": "Гусейнов Намик ",
+      "favouriteMovies": [
+        {
+          "id": 41519,
+          "name": "Брат"
+        },
+        {
+          "id": 535341,
+          "name": "1+1"
+        },
+        {
+          "id": 49684,
+          "name": "Ходячий замок"
+        }
+      ],
+      "darkTheme": false,
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+.thumbnail {
+   margin: auto;
+
+   cursor: pointer;
+
+   transition: all 300ms ease;
+}
+
+.thumbnail:hover {
+   width: 96%;
+}
+
+.thumbnail:hover .personInfo {
+   opacity: 1;
+}
+
+.thumbnail__photo {
+   width: 100%;
+   height: 100%;
+}
+
+.thumbnail__content {
+   position: relative;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.personInfo {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+
+   background-color: rgba(1, 1, 1, 0.95);
+
+   padding: 8px;
+
+   opacity: 0;
+
+   transition: all 300ms ease;
+}
+
+.personInfo__name {
+   color: var(--background-color);
+   font-size: 0.9em;
+   margin-bottom: 4px;
+}
+
+.personInfo__profession {
+   color: var(--sub-text-color);
+   font-size: 0.9em;
+}
