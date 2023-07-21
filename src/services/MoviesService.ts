@@ -7,7 +7,7 @@ interface IConfig {
 
 export default class MoviesService {
    static async get(path: string, config?: IConfig) {
-      const APIToken: string = 'H97WTT5-KP5462M-GQDTTDS-X4GECPJ';
+      const APIToken: string = '9P4KD03-TCW4MPM-GXM9XKY-K9T6TZA';
       const URL: string = `https://api.kinopoisk.dev/v1${path}?token=${APIToken}`;
 
       const response = await axios.get(URL, config);
